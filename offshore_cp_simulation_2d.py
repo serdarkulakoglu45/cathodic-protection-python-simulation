@@ -151,6 +151,7 @@ class OffshoreICCPSimulator2D:
         x = np.linspace(0, self.domain_size[0], self.grid_size[0])
         y = np.linspace(0, self.domain_size[1], self.grid_size[1])
         
+        # Add potential distribution contour with improved color scheme
         fig.add_trace(go.Contour(
             x=x, y=y,
             z=self.potential,
@@ -172,7 +173,7 @@ class OffshoreICCPSimulator2D:
             ),
             colorbar=dict(
                 title=dict(
-                    text='Potential (V vs. CSE)',
+                    text='Potential (V vs. SSC)',  # Changed from CSE to SSC
                     side='right',
                     font=dict(size=14, family='Arial Bold')
                 ),
