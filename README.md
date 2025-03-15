@@ -19,3 +19,4 @@ A Python-based 2D simulation tool for modeling and visualizing Impressed Current
 ## Installation
 ```bash
 pip install -r requirements.txt
+![2D Subsea Pipeline Cathodic Protection Simulation](https://github.com/user-attachments/assets/2b5138f5-75c9-4819-a5e0-40b4a5194815)
